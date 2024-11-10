@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+#navdropdown{
+  text-decoration: none;
+  color: white
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.new-product {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product {
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product__img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product__content {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.product__content h4,
+.product__content p {
+  margin: 0;
+  font-size: 1rem;
+  color: #767575;
+}
+
+/* Sale Badge */
+.product__content--sale {
+  position: absolute;
+  top: 10px;
+  left: 250px; 
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 50%; 
+  font-size: 1rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50px;
+  height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Layout for Right-Side Products */
+.right-products {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Product 2: Full Width on Top */
+.longer-product {
+  grid-row: 1 / 2;
+}
+
+/* Products 3 and 4 side-by-side below Product 2 */
+.small-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.product-item {
+  position: relative;
+}
+
+.productdetailimg:hover{
+  border: 1px solid #E3E3E3;
 }
