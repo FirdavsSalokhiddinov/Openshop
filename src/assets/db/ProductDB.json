@@ -1,0 +1,133 @@
+{
+    "categories": [
+        {"category_id": "1", "name": "Cell Phones"},
+        {"category_id": "2", "name": "Tablets"},
+        {"category_id": "3", "name": "Computers"},
+        {"category_id": "4", "name": "Laptop"},
+        {"category_id": "5", "name": "TV"},
+        {"category_id": "6", "name": "Video"},
+        {"category_id": "7", "name": "Accessories"},
+        {"category_id": "8", "name": "Home Appliance"},
+        {"category_id": "9", "name": "Video Games"},
+        {"category_id": "10", "name": "Consoles"}
+    ],
+    "manufacturers": [
+      { "manufacturer_id": "1", "name": "Xiaomi", "category_id": "1" },
+      { "manufacturer_id": "2", "name": "Apple", "category_id": "1" },
+      { "manufacturer_id": "3", "name": "Samsung", "category_id": "1" },
+      { "manufacturer_id": "4", "name": "Lenovo", "category_id": "4" },
+      { "manufacturer_id": "5", "name": "HP", "category_id": "4" },
+      { "manufacturer_id": "6", "name": "Apple", "category_id": "4" }
+    ],
+    "products": [
+      {
+        "product_id": "1",
+        "name": "iPhone 12 Pro Max 128GB (Gray)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "2",
+        "category_id": "1",
+        "price": 1300,
+        "stock": 150
+      },
+      {
+        "product_id": "2",
+        "name": "iPhone 11 Pro 128GB (Blue)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "2",
+        "category_id": "1",
+        "price": 700,
+        "stock": 150
+      },
+      {
+        "product_id": "3",
+        "name": "iPhone 12 Pro 256GB (Red)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "2",
+        "category_id": "1",
+        "price": 1500,
+        "stock": 150
+      },
+      {
+        "product_id": "4",
+        "name": "iPhone 11 Pro Max 256GB (Yellow)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "2",
+        "category_id": "1",
+        "price": 850,
+        "stock": 150
+      },
+      {
+        "product_id": "5",
+        "name": "Samsung Galaxy A51 4/64GB (Black)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "3",
+        "category_id": "1",
+        "price": 231,
+        "stock": 150
+      },
+      {
+        "product_id": "6",
+        "name": "Samsung Galaxy A21S 3/32GB (Blue)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "3",
+        "category_id": "1",
+        "price": 250,
+        "stock": 150
+      },
+      {
+        "product_id": "7",
+        "name": "Samsung Galaxy S10Lite 6/128GB (Blue)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "3",
+        "category_id": "1",
+        "price": 535,
+        "stock": 150
+      },
+      {
+        "product_id": "8",
+        "name": "Samsung Galaxy A41 4/64GB (Blue)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "3",
+        "category_id": "1",
+        "price": 237,
+        "stock": 150
+      },
+      {
+        "product_id": "9",
+        "name": "Mi 10t Pro 8/256GB (Blue)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "1",
+        "category_id": "1",
+        "price": 730,
+        "stock": 150
+      },
+      {
+        "product_id": "10",
+        "name": "Xiaomi mi 10t Pro 8/256GB (Silver)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "1",
+        "category_id": "1",
+        "price": 727,
+        "stock": 150
+      },
+      {
+        "product_id": "11",
+        "name": "Mi 10 Lite 6/64GB (Blue)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "1",
+        "category_id": "1",
+        "price": 337,
+        "stock": 150
+      },
+      {
+        "product_id": "12",
+        "name": "Mi 10 Lite 4/64GB (Blue)",
+        "description": "lorem ipsum...",
+        "manufacturer_id": "1",
+        "category_id": "1",
+        "price": 325,
+        "stock": 150
+      }
+    ]
+  }
+  
