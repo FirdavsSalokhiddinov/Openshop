@@ -25,7 +25,7 @@ const OrderConfirmationPage = () => {
                     <p>Will be Delivered in 5 business days!</p>
                 </div>
 
-                <Button variant="light">Continue Shopping 🔍</Button>
+                <Button variant="light" href="/">Continue Shopping 🔍</Button>
             </div>
         </div>
     );

@@ -91,7 +91,7 @@ function App() {
                 style={{ marginRight: '100px' }} // Added margin here
               />
               <div className="d-flex">
-                <a href="" className="text-light mx-2" style={{ fontSize: '1.5rem' }}>
+                <a href="https://t.me/" className="text-light mx-2" style={{ fontSize: '1.5rem' }}>
                   <Icon.Telegram />
                 </a>
                 <a href="https://www.facebook.com/" className="text-light mx-2" style={{ fontSize: '1.5rem' }}>

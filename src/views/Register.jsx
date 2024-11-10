@@ -58,13 +58,13 @@ const Register = () => {
 
                 
 
-                <Button variant="primary" type="submit" style={{width: '100%', height: '45px', borderRadius:"25px", background:"#1E90FF", marginTop:"20px"}}>
-                    Log in
+                <Button variant="primary" type="" href='/' style={{width: '100%', height: '45px', borderRadius:"25px", background:"#1E90FF", marginTop:"20px"}}>
+                    Register
                 </Button>
 
-                <a href="#" style={{ color:"#636363", display:"flex",justifyContent:"center",}}><p style={{paddingTop:"40px", fontSize:"16px",fontWeight:"bold", }}>Already have an account?</p></a>
+                <a href="/login" style={{ color:"#636363", display:"flex",justifyContent:"center",}}><p style={{paddingTop:"40px", fontSize:"16px",fontWeight:"bold", }}>Already have an account?</p></a>
 
-                <Button variant="primary" type="submit" style={{width: '100%', height: '44px',marginTop:"15px", padding:'0',display:"flex",alignItems:"center", justifyContent:"space-evenly", borderRadius:"25px", background:"#e5e5e5"}}>
+                <Button variant="light" type="" href='https://google.com' style={{width: '100%', height: '44px',marginTop:"15px", padding:'0',display:"flex",alignItems:"center", justifyContent:"space-evenly", borderRadius:"25px"}}>
                     <img src={google} style={{paddingLeft:""}} alt=""/>
                     <p style={{margin:"0", color:"#000", display:"flex", justifyContent:"center"}}>Sign in with your Google Account</p>
                     

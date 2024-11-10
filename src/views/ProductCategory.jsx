@@ -26,26 +26,26 @@ const ProductCategoryPage = () => {
                 <NavDropdown id="nav-dropdown-dark-example" title="Cell Phones & Tablets">
                     <div className="d-flex justify-content-between navdropdown" id="navdropdown" style={{ width: '100%' }}>
                     <div>
-                        <NavDropdown.Item href="#action/3.3">Cell Phones</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Cell Phones</NavDropdown.Item>
                         <DropdownDivider/>
-                        <NavDropdown.Item href="#action/3.4">Xiaomi</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Apple</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Samsung</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Huawei</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">BQ</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Nokia</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Inoi</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Vivo</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Xiaomi</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Apple</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Samsung</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Huawei</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>BQ</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Nokia</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Inoi</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Vivo</NavDropdown.Item>
                     </div>
                     <div className="ms-auto"> {/* 'ms-auto' pushes this div to the right */}
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory" style={{textDecoration:'none', color:'#333'}}>Action</NavDropdown.Item>
                         <DropdownDivider/>
-                        <NavDropdown.Item href="#action/3.2">Xiami</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Apple</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Samsung</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Huawei</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">BQ</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">More...</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Xiami</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Apple</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Samsung</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Huawei</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>BQ</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>More...</NavDropdown.Item>
                     </div>
                     </div>
                 </NavDropdown>
@@ -121,7 +121,7 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>1300$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
@@ -136,7 +136,7 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>700$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
@@ -151,7 +151,7 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>1500$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
@@ -166,14 +166,14 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>850$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
                 </Row>
                 </div>
                 <div className="text-center mt-4">
-                <Button variant="dark" className="learn-more-btn">Learn more</Button>
+                <Button variant="dark" className="learn-more-btn"  href="/productcategory">Learn more</Button>
                 </div>
             </section>
 
@@ -196,7 +196,7 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>230$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
@@ -211,7 +211,7 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>250$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
@@ -226,7 +226,7 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>535$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
@@ -241,14 +241,14 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>237$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
                 </Row>
                 </div>
                 <div className="text-center mt-4">
-                <Button variant="dark" className="learn-more-btn">Learn more</Button>
+                <Button variant="dark" className="learn-more-btn" href="/productcategory">Learn more</Button>
                 </div>
             </section>
 
@@ -271,7 +271,7 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>730$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
@@ -286,7 +286,7 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>727$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
@@ -301,7 +301,7 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>337$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
@@ -316,14 +316,14 @@ const ProductCategoryPage = () => {
                         <p style={{ fontSize: '0.9rem', color: '#777' }}>325$</p>
                         </div>
                         <a className="goods-card__btn" href="productDetail.html">
-                        <Button variant="dark" className="w-100">Buy</Button>
+                        <Button variant="dark" className="w-100" href="/productdetail">Buy</Button>
                         </a>
                     </article>
                     </Col>
                 </Row>
                 </div>
                 <div className="text-center mt-4">
-                <Button variant="dark" className="learn-more-btn">Learn more</Button>
+                <Button variant="dark" className="learn-more-btn" href="/productcategory">Learn more</Button>
                 </div>
             </section>
 
@@ -340,7 +340,7 @@ const ProductCategoryPage = () => {
 
                 <Image src={xbox} fluid />
             
-                <Button variant='dark' style={{
+                <Button variant='dark' href='/productdetail' style={{
                     position: "absolute",
                     top: "90%",
                     left: "90px",

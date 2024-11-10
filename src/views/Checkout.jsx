@@ -45,7 +45,7 @@ const CheckoutPage = () => {
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
 
-                <Button variant="primary" type="submit" style={{width: '150px', height: '40px'}}>
+                <Button variant="primary" type="submit" style={{width: '150px', height: '40px'}} href='/orderconfirmation'>
                     Submit
                 </Button>
             </Form>

@@ -39,13 +39,13 @@ const Login = () => {
                     <Form.Check type="checkbox" label="Remember ID" style={{}} />
                 </Form.Group>
 
-                <Button variant="primary" type="submit" style={{width: '100%', height: '45px', borderRadius:"25px", background:"#1E90FF"}}>
+                <Button variant="primary" type="" href="/" style={{width: '100%', height: '45px', borderRadius:"25px", background:"#1E90FF"}}>
                     Log in
                 </Button>
 
-                <a href="#" style={{paddingTop:"70px", color:"#636363"}}><p style={{paddingTop:"70px"}}>Create an account</p></a>
+                <a href="/register" style={{paddingTop:"70px", color:"#636363"}}><p style={{paddingTop:"70px"}}>Create an account</p></a>
 
-                <Button variant="primary" type="submit" style={{width: '100%', height: '44px',margin:"0", padding:'0',display:"flex",alignItems:"center", justifyContent:"space-evenly", borderRadius:"25px", background:"#e5e5e5"}}>
+                <Button variant="light" href="https://google.com" type="" style={{width: '100%', height: '44px',margin:"0", padding:'0',display:"flex",alignItems:"center", justifyContent:"space-evenly", borderRadius:"25px"}}>
                     <img src={google} style={{paddingLeft:""}}/>
                     <p style={{margin:"0", color:"#000", display:"flex", justifyContent:"center"}}>Sign in with your Google Account</p>
                     

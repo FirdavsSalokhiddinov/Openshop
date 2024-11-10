@@ -12,58 +12,58 @@ const ProductDetailPage = () => {
         <div className='ProductDetailPage'>
             <Nav className='justify-content-center'>
                 <div className='d-flex align-items-center'>
-                    <NavDropdown id="nav-dropdown-dark-example" title="Cell Phones & Tablets">
-                        <div className="d-flex justify-content-between navdropdown" id="navdropdown" style={{ width: '100%' }}>
-                            <div>
-                                <NavDropdown.Item href="#action/3.3">Cell Phones</NavDropdown.Item>
-                                <DropdownDivider/>
-                                <NavDropdown.Item href="#action/3.4">Xiaomi</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Apple</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Samsung</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Huawei</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">BQ</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Nokia</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Inoi</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Vivo</NavDropdown.Item>
-                            </div>
-                            <div className="ms-auto"> {/* 'ms-auto' pushes this div to the right */}
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <DropdownDivider/>
-                                <NavDropdown.Item href="#action/3.2">Xiami</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Apple</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Samsung</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Huawei</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">BQ</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">More...</NavDropdown.Item>
-                            </div>
-                        </div>
-                    </NavDropdown>
+                <NavDropdown id="nav-dropdown-dark-example" title="Cell Phones & Tablets">
+                    <div className="d-flex justify-content-between navdropdown" id="navdropdown" style={{ width: '100%' }}>
+                    <div>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Cell Phones</NavDropdown.Item>
+                        <DropdownDivider/>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Xiaomi</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Apple</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Samsung</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Huawei</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>BQ</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Nokia</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Inoi</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Vivo</NavDropdown.Item>
+                    </div>
+                    <div className="ms-auto"> {/* 'ms-auto' pushes this div to the right */}
+                        <NavDropdown.Item href="/productcategory" style={{textDecoration:'none', color:'#333'}}>Action</NavDropdown.Item>
+                        <DropdownDivider/>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Xiami</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Apple</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Samsung</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>Huawei</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>BQ</NavDropdown.Item>
+                        <NavDropdown.Item href="/productcategory"  style={{textDecoration:'none', color:'#333'}}>More...</NavDropdown.Item>
+                    </div>
+                    </div>
+                </NavDropdown>
 
-                    <NavDropdown id="nav-dropdown-dark-example" title="Computers & Laptop">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    </NavDropdown>
-                    <NavDropdown id="nav-dropdown-dark-example" title="TV & Video">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    </NavDropdown>
-                    <NavDropdown id="nav-dropdown-dark-example" title="Accessories">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    </NavDropdown>
-                    <NavDropdown id="nav-dropdown-dark-example" title="Home Appliance">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    </NavDropdown>
-                    <NavDropdown id="nav-dropdown-dark-example" title="Video Games & Consoles">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    </NavDropdown>
+                <NavDropdown id="nav-dropdown-dark-example" title="Computers & Laptop">
+                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown id="nav-dropdown-dark-example" title="TV & Video">
+                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown id="nav-dropdown-dark-example" title="Accessories">
+                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown id="nav-dropdown-dark-example" title="Home Appliance">
+                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown id="nav-dropdown-dark-example" title="Video Games & Consoles">
+                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                </NavDropdown>
                 </div>
             </Nav>
 
@@ -140,10 +140,10 @@ const ProductDetailPage = () => {
                             <li>The shipment for this product will begin from 14th November 2020</li>
                         </ul>
                         <div className="d-flex mt-3">
-                            <Button variant="dark" size="lg" style={{width: "175px"}}>
+                            <Button variant="dark" size="lg" href="/cart" style={{width: "175px"}}>
                                 <span>🛒 CART</span>
                             </Button>
-                            <Button variant="dark" size="lg" className="ms-3" style={{width: "175px"}}>
+                            <Button variant="dark" size="lg" href="/cart" className="ms-3" style={{width: "175px"}}>
                             BUY NOW
                             </Button>
                         </div>
@@ -159,7 +159,7 @@ const ProductDetailPage = () => {
                     <Col md={6}>
                         <h4 style={{ fontSize: '2.5rem', color: '#000' }}>Plastation VR</h4>
                         <p style={{ fontSize: '1rem', color: '#333',margin: "40px 0 0 75px", width: '350px' }}>Over 500 games and experiences and counting. See them all</p>
-                        <Button variant='dark' style={{margin: "50px 0 0 150px",width: '250px', height: "50px"}}>ADD TO CART</Button>
+                        <Button variant='dark'   href="/cart" style={{margin: "50px 0 0 150px",width: '250px', height: "50px", textDecoration: 'none', fontSize: '1.25rem', padding: 'auto'}}>ADD TO CART</Button>
                     </Col>
                 </Row>
             </Container>
